@@ -1,11 +1,14 @@
-
+import TestItem from './components/TestItem';
 
 function App() {
   return (
     <div className="app">
-      top 
+      top
       sec -intro -portfolio -work ...
+
+      <TestItem></TestItem>
     </div>
+
   );
 }
 
