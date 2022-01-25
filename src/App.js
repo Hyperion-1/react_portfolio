@@ -1,4 +1,5 @@
 import TestItem from './components/TestItem';
+import Test2 from './components/Test2';
 
 function App() {
   return (
@@ -6,7 +7,8 @@ function App() {
       top
       sec -intro -portfolio -work ...
 
-      <TestItem></TestItem>
+      <TestItem />
+      <Test2 />
     </div>
 
   );
