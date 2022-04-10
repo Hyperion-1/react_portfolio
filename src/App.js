@@ -1,6 +1,5 @@
-import TestItem from './components/TestItem';
-import Test2 from './components/Test2';
-import Test3 from './components/Test3';
+
+//import Test3 from './components/Test3';
 
 function App() {
   return (
@@ -9,9 +8,7 @@ function App() {
       sec -intro -portfolio -work ...
 
       
-      <TestItem />
-      <Test2 />
-      <Test3/>
+      
       
     </div>
 
