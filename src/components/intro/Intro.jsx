@@ -3,7 +3,7 @@ import "./intro.css"
 
 export default function Intro() {
   return (
-    <div className='Intro'>
+    <div className='Intro' id="Intro">
         intro
         
     </div>
