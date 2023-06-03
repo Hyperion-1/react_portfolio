@@ -70,10 +70,14 @@ export default function Topbar() {
 
           {/*hamburger menu*/}         
         <div className="right">
+<<<<<<< HEAD
            <div className="burger-menu">
              <div className={burger_class} onClick={updateMenu}></div>
 
              
+=======
+           <div className="hamburger">
+>>>>>>> 89138204ca02eab5bdd0a8011e8932c132b433d6
                <span classname='burgerBar'></span>
                <span classname='burgerBar'></span>
                <span classname='burgerBar'></span>    
