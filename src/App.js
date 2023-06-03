@@ -21,7 +21,7 @@ function App() {
        <Projects/>
        <Contact/>
        
-        </div> 
+      </div> 
       
     </div>
 
