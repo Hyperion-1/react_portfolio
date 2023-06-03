@@ -1,10 +1,12 @@
-import "./topbar.css" //css styleSheet 
+import "./topbar.css"
 import {Person, Mail, Code} from "@material-ui/icons"
 
 export default function Topbar() {
   return (
     <div className='Topbar'>
        <div className="wrapper">
+
+         
 
          <div className="left">
 
@@ -19,8 +21,11 @@ export default function Topbar() {
 
             <div className="itemContainer">
               <Mail className="icon"/>
-              <span>walker.brad26@gmail.com</span>
+              <span>walker.brad26@gmail.com</span>              
             </div>
+
+
+
                    {/*
            <a href="#Skills">skills</a>
            <a href="#Projects">projects</a>
@@ -29,11 +34,16 @@ export default function Topbar() {
          </div>
          
 
-         <h1><Code/></h1>
+        <h1><Code/></h1>
 
-
-         <div className="right">
-           right side
+          {/*hamburger menu*/}         
+        <div className="right">
+           <div className="hamburger">
+               <span classname='line1'></span>
+               <span classname='line2'></span>
+               <span classname='line3'></span>    
+           </div>
+           
          </div>
 
        </div>
