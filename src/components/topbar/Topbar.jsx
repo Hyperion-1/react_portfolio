@@ -4,33 +4,6 @@ import "./topbar.css"
 import {Person, Mail, Code} from "@material-ui/icons"
 
 
-
-
-const NavBar = () => {
-
-  const[burger_class, setBurgerClass] = useState("burger-bar unclicked")
-  const[menu_class, setMenuClass] = useState("menu hidden")
-  const[isMenuClicked, setIsMenuClicked] = useState(false)
-
-
-  //burger toggle
-  const updateMenu = () => {
-    if(!isMenuClicked){
-      setBurgerClass("burger-bar clicked")
-      setMenuClass("menu visable")      
-    }
-     else{
-      setBurgerClass("burger-bar unclicked")
-      setMenuClass("menu hidden")
-    }
-  }//end updateMenu
-  
-
-}//end NavBar
-
-
-
-
 export default function Topbar() {
   return (
     <div className='Topbar'>
@@ -70,14 +43,7 @@ export default function Topbar() {
 
           {/*hamburger menu*/}         
         <div className="right">
-<<<<<<< HEAD
-           <div className="burger-menu">
-             <div className={burger_class} onClick={updateMenu}></div>
-
-             
-=======
            <div className="hamburger">
->>>>>>> 89138204ca02eab5bdd0a8011e8932c132b433d6
                <span classname='burgerBar'></span>
                <span classname='burgerBar'></span>
                <span classname='burgerBar'></span>    

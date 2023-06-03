@@ -40,11 +40,7 @@
     align-items: center;
     justify-content: center;
 }
-<<<<<<< HEAD
-.right .burger-menu{
-=======
 .right .hamburger{
->>>>>>> 89138204ca02eab5bdd0a8011e8932c132b433d6
       width: 32px;
       height: 25px;
       background-color: red;
@@ -54,11 +50,6 @@
       align-items: center;       
       flex-direction: column; 
       cursor: pointer;
-<<<<<<< HEAD
-
-}
-=======
->>>>>>> 89138204ca02eab5bdd0a8011e8932c132b433d6
 
 }
 /*
