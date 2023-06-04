@@ -52,7 +52,6 @@ export default function Topbar() {
          </div>
 
        </div>
-
-    </div>
+    </div>/*MAIN DIV WRAPPER*/
   )
 }
