@@ -8,6 +8,19 @@ My primary portfolio to be used with my resume and deployed to github pages.
 * FIX: burger button. Micro-sprint at least get the static to render, state 
     and functionality to be added later. 
 
+    >2023_06_03 19:21
+        This damn thing is not co-operating, may try import. It's a burger 
+        button, not a REST api, lets not complecate this too much
+
+        >Icon is not centered
+
+        >--resizeablity on the topbar contact-- *WILL need work, bad flex
+
+
+
+
+
+
 * CARD PROP:
     Going to have multiple skills and lang. listed, might as well build 
     up a template for re-useability. 
