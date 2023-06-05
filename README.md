@@ -10,7 +10,7 @@ My primary portfolio to be used with my resume and deployed to github pages.
 
     >2023_06_03 19:21
         This damn thing is not co-operating, may try import. It's a burger 
-        button, not a REST api, lets not complecate this too much
+        button, not a REST api. lets not complecate this too much
 
         >Icon is not centered
 
@@ -33,9 +33,12 @@ My primary portfolio to be used with my resume and deployed to github pages.
     some form of animation and/or dynamic background. Need a good balance between
     appealing without being too flashy or over the top, tasteful.
 
+* WORK HISTORY
+    ?
 
 
-
+* (Misc.)
+    * Scroll to top button?
 
 
 

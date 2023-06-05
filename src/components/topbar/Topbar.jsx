@@ -40,7 +40,6 @@ export default function Topbar() {
         <h1><Code/></h1>
 
 
-
           {/*hamburger menu*/}         
         <div className="right">
            <div className="hamburger">
