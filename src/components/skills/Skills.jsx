@@ -10,6 +10,7 @@ import JavaIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/JavaIcon.pn
 import gitIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/git.png"
 import gitHubIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/gitHubIcon.svg"
 import reactIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/React-icon.svg.png"
+import nodejsIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/nodejsIcon.png"
 
 export default function Skills() {
   return (
@@ -26,41 +27,44 @@ export default function Skills() {
 
        skills:
 
+      <div className="flex-container">
+
+       React 
+       <img src={reactIcon} alt="Reacticon" width="200" height="300"></img>
+
        HTML
-       <img src={HTML5Icon} width="200" height="300"></img>
+       <img src={HTML5Icon} alt="HTML5icon" width="200" height="300"></img>
       
        CSS
-       <img src={CSSIcon} width="200" height="300"></img>
+       <img src={CSSIcon} alt="CSSicon" width="200" height="300"></img>
 
        JavaScript
-       <img src={JSIcon} width="200" height="300"></img>
-       
-       React 
-       <img src={reactIcon} width="200" height="300"></img>
-
-
+       <img src={JSIcon} alt="JSicon" width="200" height="300"></img>       
 
        MySQL 
-       <img src={SQLIcon} width="100" height="200"></img>
+       <img src={SQLIcon} alt="SQLicon" width="100" height="200"></img>
 
        PHP(ish)
-       <img src={PHPIcon} width="100" height="200"></img>
+       <img src={PHPIcon} alt="PHPicon" width="100" height="200"></img>
 
        C++ 
-       <img src={CPlusPlusIcon} width="100" height="200"></img>
+       <img src={CPlusPlusIcon} alt="CPlusPlusicon" width="100" height="200"></img>
 
        Java 
-       <img src={JavaIcon} width="100" height="200"></img>
+       <img src={JavaIcon} alt="Javaicon" width="100" height="200"></img>
 
 
        Git 
-       <img src={gitIcon} width="200" height="300"></img>
+       <img src={gitIcon} alt="Giticon" width="200" height="300"></img>
 
        GitHub
-       <img src={gitHubIcon} width="200" height="300"></img>
+       <img src={gitHubIcon} alt="GitHubicon" width="200" height="300"></img>
        
        Node.js
+       <img src={nodejsIcon} alt="GitHubicon" width="200" height="300"></img>
 
+
+      </div>
 
     </div>
   )
