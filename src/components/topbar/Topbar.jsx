@@ -17,6 +17,10 @@ export default function Topbar() {
              BmW
            </a>
 
+
+
+          {/*>topbar contact info is neg. effecting css, may delete*/
+          /*
            <div className="itemContainer">
              <Person className="icon"/>
              <span>+1 618-402-4102</span>
@@ -27,7 +31,7 @@ export default function Topbar() {
               <span>walker.brad26@gmail.com</span>              
             </div>
 
-
+  */  }
 
                    {/*
            <a href="#Skills">skills</a>
