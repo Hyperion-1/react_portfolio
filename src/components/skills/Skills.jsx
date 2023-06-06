@@ -7,12 +7,14 @@ import SQLIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/mysql-logo-c
 import PHPIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/PHP-logo.svg.png"
 import CPlusPlusIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/Cpp_Logo.svg.png"
 import JavaIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/JavaIcon.png"
-
+import gitIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/git.png"
+import gitHubIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/gitHubIcon.svg"
+import reactIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/React-icon.svg.png"
 
 export default function Skills() {
   return (
     <div className='Skills' id="Skills">
-      
+
       <h1 className="SkillsHeader">
         List of my current coding languages, ect.
        </h1>
@@ -34,6 +36,9 @@ export default function Skills() {
        <img src={JSIcon} width="200" height="300"></img>
        
        React 
+       <img src={reactIcon} width="200" height="300"></img>
+
+
 
        MySQL 
        <img src={SQLIcon} width="100" height="200"></img>
@@ -46,8 +51,14 @@ export default function Skills() {
 
        Java 
        <img src={JavaIcon} width="100" height="200"></img>
+
+
        Git 
+       <img src={gitIcon} width="200" height="300"></img>
+
        GitHub
+       <img src={gitHubIcon} width="200" height="300"></img>
+       
        Node.js
 
 
