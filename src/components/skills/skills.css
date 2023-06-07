@@ -1,3 +1,35 @@
 .Skills{
     background-color: darkgoldenrod;
 }
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 4;
+    grid-gap: 300px;
+    row-gap: 200px;
+
+    justify-items: center;
+ 
+}
+
+.grid-item-1{
+    grid-column-start: 1;
+    grid-column-end: -1;
+
+    justify-self: center;
+}
+
+
+.grid-skillRow1{
+    grid-row-start: 2;
+   
+}
+
+
+.grid-skillRow2{
+    grid-row-start: 3;
+   
+}

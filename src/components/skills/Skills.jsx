@@ -18,50 +18,70 @@ export default function Skills() {
 
       <h1 className="SkillsHeader">
         List of my current coding languages, ect.
-       </h1>
+      </h1>
 
       
 
       
 
 
-       skills:
+    <h2>skills: </h2> 
 
-      <div className="flex-container">
+      <div className="grid-container"> 
 
+       <div className="grid-item-1">
        React 
-       <img src={reactIcon} alt="Reacticon" width="200" height="300"></img>
+       <img src={reactIcon} alt="Reacticon" width="200" height="300" className="skillReactTop"></img>   
+       </div>   
 
+
+
+
+      <div className="gridRow1">
        HTML
-       <img src={HTML5Icon} alt="HTML5icon" width="200" height="300"></img>
+       <img src={HTML5Icon} alt="HTML5icon"  width="200" height="300"  className="skillRow1"></img>
       
        CSS
-       <img src={CSSIcon} alt="CSSicon" width="200" height="300"></img>
+       <img src={CSSIcon} alt="CSSicon"  width="200" height="300"  className="skillRow1"></img>
 
        JavaScript
-       <img src={JSIcon} alt="JSicon" width="200" height="300"></img>       
+       <img src={JSIcon} alt="JSicon"  width="200" height="300" className="skillRow1"></img>       
+       </div>
 
+
+
+
+       <div className="gridRow2">
        MySQL 
        <img src={SQLIcon} alt="SQLicon" width="100" height="200"></img>
 
        PHP(ish)
        <img src={PHPIcon} alt="PHPicon" width="100" height="200"></img>
 
+       Node.js
+       <img src={nodejsIcon} alt="GitHubicon" width="200" height="300"></img>
+       </div>
+
+
+
+       <div className="gridRow3">
        C++ 
        <img src={CPlusPlusIcon} alt="CPlusPlusicon" width="100" height="200"></img>
 
        Java 
        <img src={JavaIcon} alt="Javaicon" width="100" height="200"></img>
 
+       </div>
 
+
+       <div className="gridRow4">
        Git 
        <img src={gitIcon} alt="Giticon" width="200" height="300"></img>
 
        GitHub
        <img src={gitHubIcon} alt="GitHubicon" width="200" height="300"></img>
+       </div>
        
-       Node.js
-       <img src={nodejsIcon} alt="GitHubicon" width="200" height="300"></img>
 
 
       </div>
