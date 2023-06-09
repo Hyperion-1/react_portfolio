@@ -33,6 +33,9 @@ My primary portfolio to be used with my resume and deployed to github pages.
     some form of animation and/or dynamic background. Need a good balance between
     appealing without being too flashy or over the top, tasteful.
 
+* FOOTER
+    >make
+
 * WORK HISTORY
     ?
 

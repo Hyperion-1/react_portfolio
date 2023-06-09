@@ -1,5 +1,7 @@
 .app{
+
     height: 100vh;
+    
 }
 
 
@@ -10,20 +12,33 @@
     position: relative; 
     top: 70px;
     scroll-behavior: smooth;
-
+/* 
     scroll-snap-type: y mandatory; 
+ */
+
+
     scrollbar-width: none; /*hide scrollbar firefox, edge, and IE*/
  
 
 
 }
+/* 
+.skillsSection{
+    height: auto;
+}
+
+ */
 
 .sections > *{
     width: 100vw;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 70px); 
+ 
 
     scroll-snap-align: start;
+     
 }
+
+ 
 
 /*hide scrollbar for Chrome, Safari, and Opera*/
 .sections::-webkit-scrollbar{
