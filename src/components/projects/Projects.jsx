@@ -1,5 +1,5 @@
 //import styles fromm css
-import "./projects.css"
+import "./Projects.scss"
 
 export default function Projects() {
   return (

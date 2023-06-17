@@ -1,5 +1,5 @@
 //import styles fromm css
-import "./contact.css"
+import "./Contact.scss"
 
 export default function Contact() {
   return (

@@ -1,4 +1,4 @@
-import "./skills.css"
+import "./Skills.scss"
 
 import HTML5Icon from "/home/brad/Nu_repos/react_portfolio/src/assets/html5-icon.png"
 import CSSIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/CSS3.png"

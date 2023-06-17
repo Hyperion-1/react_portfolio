@@ -1,6 +1,6 @@
 import react, {useState} from 'react';
 
-import "./topbar.css"
+import "./Topbar.scss"
 import {Person, Mail, Code} from "@material-ui/icons"
 
 

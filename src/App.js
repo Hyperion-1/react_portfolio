@@ -1,4 +1,4 @@
-import "./app.css"
+import "./App.scss"
 
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
