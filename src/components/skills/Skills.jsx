@@ -1,5 +1,6 @@
 import "./Skills.scss"
 
+//Icon imports
 import HTML5Icon from "/home/brad/Nu_repos/react_portfolio/src/assets/html5-icon.png"
 import CSSIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/CSS3.png"
 import JSIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/javascript.png"
@@ -11,6 +12,8 @@ import gitIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/git.png"
 import gitHubIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/gitHubIcon.svg"
 import reactIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/React-icon.svg.png"
 import nodejsIcon from "/home/brad/Nu_repos/react_portfolio/src/assets/nodejsIcon.png"
+
+
 
 export default function Skills() {
   return (
@@ -26,32 +29,40 @@ export default function Skills() {
 
 
     <h2>skills: </h2> 
+      
 
-      <div className="grid-container"> 
+      <div className="flex-container"> 
 
-       <div className="grid-item-1">
+
+
+      <div className="flex-top">
        React 
-       <img src={reactIcon} alt="Reacticon" width="200" height="300" className="skillReactTop"></img>   
-       </div>   
+       <img src={reactIcon} alt="Reacticon" className="skillReactTop"></img>   
+      </div>   
 
 
 
 
-      <div className="gridRow1">
+
+
+      <div className="flex-Row-1">
+     
        HTML
-       <img src={HTML5Icon} alt="HTML5icon"  width="200" height="300"  className="skillRow1"></img>
+       <img src={HTML5Icon} alt="HTML5icon"   className="skillRow1"></img>
       
        CSS
-       <img src={CSSIcon} alt="CSSicon"  width="200" height="300"  className="skillRow1"></img>
+       <img src={CSSIcon} alt="CSSicon" className="skillRow1"></img>
 
        JavaScript
-       <img src={JSIcon} alt="JSicon"  width="200" height="300" className="skillRow1"></img>       
-       </div>
+       <img src={JSIcon} alt="JSicon"  className="skillRow1"></img>   
+       
+      </div>
 
 
 
 
-       <div className="gridRow2">
+{/* 
+      <div className="gridRow2">
        MySQL 
        <img src={SQLIcon} alt="SQLicon" width="100" height="200"></img>
 
@@ -60,9 +71,7 @@ export default function Skills() {
 
        Node.js
        <img src={nodejsIcon} alt="GitHubicon" width="200" height="300"></img>
-       </div>
-
-
+      </div>
 
        <div className="gridRow3">
        C++ 
@@ -71,21 +80,20 @@ export default function Skills() {
        Java 
        <img src={JavaIcon} alt="Javaicon" width="100" height="200"></img>
 
-       </div>
+      </div>
 
 
-       <div className="gridRow4">
+      <div className="gridRow4">
        Git 
        <img src={gitIcon} alt="Giticon" width="200" height="300"></img>
 
        GitHub
        <img src={gitHubIcon} alt="GitHubicon" width="200" height="300"></img>
-       </div>
-       
-
-
       </div>
+       */} 
 
     </div>
+
+  </div>
   )
 }
