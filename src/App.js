@@ -1,5 +1,6 @@
 import "./App.scss"
 
+//React components
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Skills from "./components/skills/Skills";
