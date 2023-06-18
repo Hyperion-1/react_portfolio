@@ -31,66 +31,63 @@ export default function Skills() {
     <h2>skills: </h2> 
       
 
-      <div className="flex-container"> 
-
-
+     <div className="grid-container"> 
 
       <div className="flex-top">
        React 
        <img src={reactIcon} alt="Reacticon" className="skillReactTop"></img>   
-      </div>   
+      </div>  
 
 
-
-
-
-
-      <div className="flex-Row-1">
+      <div className="flex-row-1">
      
-       HTML
+        {/*  HTML */}
        <img src={HTML5Icon} alt="HTML5icon"   className="skillRow1"></img>
-      
-       CSS
-       <img src={CSSIcon} alt="CSSicon" className="skillRow1"></img>
 
-       JavaScript
+        {/* JavaScript */}
        <img src={JSIcon} alt="JSicon"  className="skillRow1"></img>   
+      
+        {/*  CSS */}
+       <img src={CSSIcon} alt="CSSicon" className="skillRow1"></img>    
        
       </div>
 
 
+      <div className="flex-row-2">
 
+       {/*Java*/}
+       <img src={JavaIcon} alt="Javaicon" className="skillRow2"></img>
 
-{/* 
-      <div className="gridRow2">
-       MySQL 
-       <img src={SQLIcon} alt="SQLicon" width="100" height="200"></img>
-
-       PHP(ish)
-       <img src={PHPIcon} alt="PHPicon" width="100" height="200"></img>
-
-       Node.js
-       <img src={nodejsIcon} alt="GitHubicon" width="200" height="300"></img>
-      </div>
-
-       <div className="gridRow3">
-       C++ 
-       <img src={CPlusPlusIcon} alt="CPlusPlusicon" width="100" height="200"></img>
-
-       Java 
-       <img src={JavaIcon} alt="Javaicon" width="100" height="200"></img>
+       {/*C++*/}
+       <img src={CPlusPlusIcon} alt="CPlusPlusicon" className="skillRow2"></img>     
 
       </div>
 
 
-      <div className="gridRow4">
-       Git 
-       <img src={gitIcon} alt="Giticon" width="200" height="300"></img>
 
-       GitHub
-       <img src={gitHubIcon} alt="GitHubicon" width="200" height="300"></img>
+      <div className="flex-row-3">
+
+        {/*   MySQL */} 
+       <img src={SQLIcon} alt="SQLicon" className="skillRow3"></img>
+
+        {/*   Node.js */}
+       <img src={nodejsIcon} alt="GitHubicon" className="skillRow3"></img>
+
+        {/*  PHP(ish) */}
+       <img src={PHPIcon} alt="PHPicon" className="skillRow3"></img>
+
+       
       </div>
-       */} 
+    
+
+      <div className="flex-row-4">
+         {/* Git  */}
+       <img src={gitIcon} alt="Giticon" className="skillRow4"></img>
+
+         {/* GitHub */}
+       <img src={gitHubIcon} alt="GitHubicon" className="skillRow4"></img>
+      </div>
+    
 
     </div>
 
