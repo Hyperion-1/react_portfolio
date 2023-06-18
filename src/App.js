@@ -17,12 +17,10 @@ function App() {
      <Topbar/> 
      
      <div className="sections">
-
        <Intro/>
        <Skills/>
        <Projects/>
-       <Contact/>
-       
+       <Contact/>       
       </div> 
       
     </div>

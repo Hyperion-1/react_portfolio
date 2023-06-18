@@ -20,21 +20,16 @@ export default function Skills() {
     <div className='Skills' id="Skills">
 
       <h1 className="SkillsHeader">
-        List of my current coding languages, ect.
+        Skills:
       </h1>
 
-      
 
-      
-
-
-    <h2>skills: </h2> 
       
 
      <div className="grid-container"> 
 
       <div className="flex-top">
-       React 
+      {/*    React  */}
        <img src={reactIcon} alt="Reacticon" className="skillReactTop"></img>   
       </div>  
 
@@ -90,7 +85,6 @@ export default function Skills() {
     
 
     </div>
-
   </div>
   )
 }

@@ -17,8 +17,11 @@ img{
 
 .grid-container{
     display: grid;
+    gap: 2rem;
 }
  
+
+
 .grid-container>*:first-child{
     align-self:stretch;
 }
@@ -28,7 +31,7 @@ img{
 }
  
  
-
+//styling: front-end holy trinity
 .flex-row-1{
     display: flex;
     flex-direction: row;
@@ -36,9 +39,10 @@ img{
     align-content:stretch;
 
     height: 40vh;
-   // width: 60vw;
+   
+    background-color: blue;
 }
-
+//styling: 'hard' languages
 .flex-row-2{
     display: flex;
     flex-direction: row;
@@ -46,9 +50,10 @@ img{
     align-content:stretch;
 
     height: 40vh;
+
+    background-color: purple;
 }
-
-
+//styling: back-end languages
 .flex-row-3{
     display: flex;
     flex-direction: row;
@@ -56,10 +61,10 @@ img{
     align-content:stretch;
 
     height: 40vh;
+
+    background-color: red;
 }
-
-
-
+//styling: version control
 .flex-row-4{
     display: flex;
     flex-direction: row;
@@ -67,5 +72,7 @@ img{
     align-content:stretch;
 
     height: 40vh;
+
+    background-color: green;
 }
 
