@@ -1,5 +1,24 @@
+$silverMain: silver;
+$silver2: rgb(169, 166, 166);
+$silver3: rgb(144, 142, 142);
+$silver4: rgb(130, 126, 126);
+$silver5: rgb(108, 108, 108);
+$silverTest: black;
+
+
+
 .Intro{
-    background-color: cornsilk;
-   /*color: white;*/
+  //  background-color: cornsilk; 
+
+   background: radial-gradient(
+    $silverMain,
+    $silver2,
+    $silver3,
+    $silver4, 
+    $silver5,
+    $silverTest);
+
+    width: 100%;
+    min-height: 100dvh;
     
 }
