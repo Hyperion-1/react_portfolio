@@ -19,8 +19,9 @@ export default function Skills() {
   return (
     <div className='Skills' id="Skills">
 
+
       <h1 className="SkillsHeader">
-        Skills:
+        <b><strong> My Skills: </strong></b> 
       </h1>
 
 
@@ -57,7 +58,6 @@ export default function Skills() {
        <img src={CPlusPlusIcon} alt="CPlusPlusicon" className="skillRow2"></img>     
 
       </div>
-
 
 
       <div className="flex-row-3">
