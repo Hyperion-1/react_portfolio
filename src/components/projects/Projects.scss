@@ -4,3 +4,56 @@
     width: 100%;
     min-height: 100dvh;
 }
+*{
+    box-sizing: border-box;
+}
+
+
+//text header
+.projectsHeader{
+    text-align: center;
+
+    border: 10px solid;
+}
+
+//internal section grid
+.projects-grid-container{
+    display: grid;
+
+    align-content: space-evenly;
+
+    width: 100%;
+    height: fill;
+   
+    padding-top: 1%;   
+    gap: 1rem;
+}
+
+//grid internal flex-box
+.flex-container{
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+
+.flex-item-1{
+    display: flex;
+    align-items: left;
+
+    border: 10px solid blue;
+}
+
+.flex-item-2{
+    display: flex;
+    align-items: center;
+
+    border: 10px solid blue;
+}
+
+.flex-item-3{
+    display: flex;
+    align-items: right;
+
+    border: 10px solid blue;
+}
