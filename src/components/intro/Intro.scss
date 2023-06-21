@@ -1,3 +1,4 @@
+//variable decleration
 $silverMain: silver;
 $silver2: rgb(169, 166, 166);
 $silver3: rgb(144, 142, 142);
@@ -5,12 +6,62 @@ $silver4: rgb(130, 126, 126);
 $silver5: rgb(108, 108, 108);
 $silverTest: black;
 
+@property --gradient-angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+@keyframes rotation {
+  0% { --gradient-angle: 0deg; }
+  100% { --gradient-angle: 360deg;}
+}
 
 
 .Intro{
-  //  background-color: cornsilk; 
 
-   background: radial-gradient(
+    color: white;
+
+    background: black;
+
+    width: 100%;
+    min-height: 100dvh;//using this to stretch Background, may require changes later  
+      
+}
+.grid-wrapper{
+
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+
+ 
+}
+
+
+.intro-backboard{
+
+  height: 95vh;
+  width: 95vh;
+  border-radius: 0.5rem;
+
+  position: relative;
+
+  //background-color: blue;
+  justify-content: center;
+
+
+
+
+}
+
+.intro-backboard::before,
+.intro-backboard::after{
+
+
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: radial-gradient(
     $silverMain,
     $silver2,
     $silver3,
@@ -18,7 +69,13 @@ $silverTest: black;
     $silver5,
     $silverTest);
 
-    width: 100%;
-    min-height: 100dvh;//using this to stretch Background, may require changes later
-    
+
+  border-radius: inherit; 
+
+  animation: rotation 20s linear infinite;
+
+}
+
+.intro-backboard::after{
+  filter: blur(3.5rem);
 }

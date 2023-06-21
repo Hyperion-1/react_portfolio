@@ -3,10 +3,22 @@ import "./Intro.scss"
 export default function Intro() {
   return (    
     <div className='Intro'>
-        intro/landing
-
-        Maybe a simple but appealing animation      
+      <body className="grid-wrapper">
         
+     
+         
+
+
+
+        <div className="intro-backboard">
+         intro/landing
+       
+        </div>
+
+
+
+    
+     </body>
     </div>
   )
 }
