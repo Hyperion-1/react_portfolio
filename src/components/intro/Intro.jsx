@@ -11,8 +11,8 @@ export default function Intro() {
 
          <div className="intro-backboard">
 
-          <div className="testTest">
-            <h1>intro/landing</h1>
+          <div className="introTextMain">
+            <h1>Brad Walker</h1>
             <h2>Full-Stack Developer</h2>
           </div>
        

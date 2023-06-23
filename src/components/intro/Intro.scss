@@ -31,7 +31,7 @@ $silverTest: black;
  
 }
 
-.testTest{
+.introTextMain{
   z-index: 1;
 }
 
@@ -40,8 +40,8 @@ $silverTest: black;
     color: silver;
 
    
-        width: 100dvw;
-        min-height: 100dvh;
+        width: 95dvw;
+        min-height: 95dvh;
 
         box-shadow: 16px 14px 20px #0000008c;
         border-radius: 10px;
@@ -53,6 +53,8 @@ $silverTest: black;
         justify-content: center;
         align-items: center;
 
+       
+
 }
 .intro-backboard::before{
 
@@ -62,53 +64,54 @@ $silverTest: black;
 
 
    content: "";
-        background-image: conic-gradient(          
+        background-image: conic-gradient(        
           silver,
           $silver2, 
           $silver3,
-          $silver4
+          $silver4,
+          $silver5
         );
 
 
         width: 150%;
-        height: 150%;
+        min-height: 150%;
 
         position: absolute;
         
-
+        filter: blur(3.5rem);
         animation: rotate 20s linear infinite;
+        
 
 }
 .intro-backboard::after{
 
-        content: ""; // this line inserts text    
+        content: "";   
+        z-index: -.5; 
 
         width: 99%;
         height: 99%;
 
         background: #101010;
         
-        border-radius: 10px;
+        border-radius: inherit;
 
         display: flex;
         position: absolute;
 
 
         justify-content: center;
-        align-items: center;
+        align-items: center;     
 
 
         box-shadow: inset 20px 20px 20px #0000008c;
-
-
 } 
 
 
 @keyframes rotate {
     0%{
-        transform: rotate(0deg);
+        transform: rotate( 0deg );
     }
     100%{
-        transform: rotate(360deg);
+        transform: rotate( 360deg );
     }
 }
