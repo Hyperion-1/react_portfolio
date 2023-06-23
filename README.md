@@ -5,33 +5,16 @@ My primary portfolio to be used with my resume and deployed to github pages.
 
                                     TODO: 
 
-* FIX: burger button. Micro-sprint at least get the static to render, state 
-    and functionality to be added later. 
-
-    >2023_06_03 19:21
-        This damn thing is not co-operating, may try import. It's a burger 
-        button, not a REST api. lets not complecate this too much
-
-        >Icon is not centered
-
-        >--resizeablity on the topbar contact-- *WILL need work, bad flex
-
-
-
-
-
-
-* CARD PROP:
-    Going to have multiple skills and lang. listed, might as well build 
-    up a template for re-useability. 
-
 * CONTACT SECTION.
-     This will be simple, low priority
+     This will (*should*) be simple, bump to near-front 
+
+* Top-bar
+    Currently ('23-06-22) this has been hollowed out and removed from the 
+    page due to issues. After the contact section is built, or at least the 
+    front-end elments are built out, this should be resolved.
 
 * LANDING SECTION. 
-    Semi priority. First thing seen on landing, got to look good. Mulling over 
-    some form of animation and/or dynamic background. Need a good balance between
-    appealing without being too flashy or over the top, tasteful.
+    Current is primative but functional. Needs polish.
 
 * FOOTER
     >make
@@ -48,4 +31,11 @@ My primary portfolio to be used with my resume and deployed to github pages.
 
                             WORKLOG/COMPLETED:
 
-* TBD
+* 2023-06-22
+    >basic landing section is working. Not great and needs adjustment,
+     but working.
+
+* 2023-06-??
+    >skill section is built out. Responsive elements need work but its up.
+    >basic idea of projects section is up. NOT finished, but the idea is there
+
