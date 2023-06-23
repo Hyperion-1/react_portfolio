@@ -6,25 +6,25 @@ My primary portfolio to be used with my resume and deployed to github pages.
                                     TODO: 
 
 * CONTACT SECTION.
-     This will (*should*) be simple, bump to near-front 
+   > This will (*should*) be simple, bump to near-front 
 
 * Top-bar
-    Currently ('23-06-22) this has been hollowed out and removed from the 
-    page due to issues. After the contact section is built, or at least the 
-    front-end elments are built out, this should be resolved.
+   > Currently ('23-06-22) this has been hollowed out and removed from the 
+   > page due to issues. After the contact section is built, or at least the 
+   > front-end elments are built out, this should be resolved.
 
 * LANDING SECTION. 
-    Current is primative but functional. Needs polish.
+  > Current is primative but functional. Needs polish.
 
 * FOOTER
-    >make
+    > make
 
 * WORK HISTORY
-    ?
+   > ?
 
 
 * (Misc.)
-    * Scroll to top button?
+    > Scroll to top button?
 
 
 
@@ -32,8 +32,10 @@ My primary portfolio to be used with my resume and deployed to github pages.
                             WORKLOG/COMPLETED:
 
 * 2023-06-22
-    >basic landing section is working. Not great and needs adjustment,
-     but working.
+    > Basic landing section is working. Not great and needs adjustment,
+    > but working.
+
+    >Updated README
 
 * 2023-06-??
     >skill section is built out. Responsive elements need work but its up.
