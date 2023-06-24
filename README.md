@@ -1,4 +1,4 @@
-REACT_PORTFOLIO | VER. 0.1.0
+REACT_PORTFOLIO | VER. 0.1.0 | *IN PROGRESS*
 
 My primary portfolio to be used with my resume and deployed to github pages.
 
@@ -30,6 +30,19 @@ My primary portfolio to be used with my resume and deployed to github pages.
 
 
                             WORKLOG/COMPLETED:
+* 2023-06-24
+    >I:
+     >**Note for final run optimization**
+    >Even before getting to work, I'm seeing a noticable render slowdown near
+    >the landing section. This may require redesign **BUT** this could also be
+    >on the VM
+   
+
+    >II:
+    >Further on load, flexing on the skills section will need to be adjusted. 
+    >Current prototype is able to scale but remains in row, noted
+
+
 
 * 2023-06-22
     > Basic landing section is working. Not great and needs adjustment,
